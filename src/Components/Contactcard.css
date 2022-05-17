@@ -1,0 +1,35 @@
+.contact-card{
+    width:55%;
+    min-height:fit-content;
+  margin-bottom: 1%;
+    display: flex;
+  display: flex;
+    padding-top: 5px;
+    padding-bottom: 5px;        
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.image-container{
+    width:15%;
+    height:5rem;
+    overflow: hidden;
+    padding: 0px 2%;
+    
+}
+img {
+    width: 55%;
+    height: inherit;
+    object-fit: cover;
+    border-radius: 98%;
+  }
+  div{
+      text-align: left;
+  }
+  .detail-div{
+      font-weight: bolder;
+      color:green;
+  }
+  .detail-email{
+      color: gray;
+      font-weight: bolder;
+  }
